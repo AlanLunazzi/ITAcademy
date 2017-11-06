@@ -1,0 +1,16 @@
+package ar.com.grupoesfera.model;
+
+public class Item {
+	
+	public String description;
+	public double price;
+	public User user;
+	
+	public Item(String description, double price, User user) {
+		// TODO Auto-generated constructor stub
+		this.description = description;
+		this.price = price;
+		this.user = user;
+	}
+	
+}

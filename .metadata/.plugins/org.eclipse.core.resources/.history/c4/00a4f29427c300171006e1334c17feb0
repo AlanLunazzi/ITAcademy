@@ -1,0 +1,46 @@
+package ar.com.grupoesfera.model;
+
+import org.junit.Test;
+import static org.assertj.core.api.Assertions.*;
+
+public class TarjetaBajaTest {
+	
+	@Test
+	public void crearTarjetaBaja() {
+		TarjetaBaja tb = new TarjetaBaja(80);
+		
+		assertThat(tb).isNotNull();
+		assertThat(tb.obtenerSaldo()).isEqualTo(80);
+		try {
+			tb.cargar(25);
+			tb.pagarViajeEnColectivo();
+			tb.pagarViajeEnColectivo();
+			tb.pagarViajeEnSubte();
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		assertThat(tb.obtenerSaldo()).isEqualTo(100);
+		assertThat(tb.contarViajes()).isEqualTo(3);
+		assertThat(tb.contarViajesEnColectivo()).isEqualTo(2);
+		assertThat(tb.contarViajesEnSubte()).isEqualTo(1);
+	}
+
+	@Test(expected = Exception.class)
+	public void cargaInvalida() {
+		TarjetaBaja tb = new TarjetaBaja(80);
+
+		try {
+			tb.cargar(-1);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

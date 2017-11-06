@@ -1,0 +1,34 @@
+package ar.com.grupoesfera.model;
+
+public class Punto {
+	private int x;
+	private int y;
+	
+	public boolean isOnX(int x) {
+		return this.x == x;
+	}
+	public boolean isOnY(int y) {
+		return this.y == y;
+	}
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) throws Exception {
+		if(x>0)
+			this.x = x;
+		else
+			throw new Exception ("x must be positive");
+	}
+	public int getY() {
+		return y;
+	}
+	public void setY(int y) throws Exception {
+		if(y > 0)
+			this.y = y;
+		else
+			throw new Exception ("y must be positive");
+	}
+	public boolean isOnPoint(Punto p) {
+		return (this.x == p.x && this.y == p.y);
+	}
+}

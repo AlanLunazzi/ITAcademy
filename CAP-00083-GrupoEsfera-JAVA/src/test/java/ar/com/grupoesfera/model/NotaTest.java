@@ -1,0 +1,44 @@
+package ar.com.grupoesfera.model;
+
+import static org.assertj.core.api.Assertions.*;
+
+import org.junit.Test;
+
+public class NotaTest {
+
+	@Test
+	public void crearNota() {
+		CreadorDeNota creador = new CreadorDeNota();
+		
+		
+		Nota nota1;
+		Nota nota2;
+		try {
+			nota1 = creador.crearNota(3);
+			nota2 = creador.crearNota(4);
+			
+			
+
+			assertThat(nota1).isNotNull();
+			assertThat(nota1.aprobado()).isEqualTo(false);
+			assertThat(nota2.aprobado()).isEqualTo(true);
+			
+			assertThat(nota1.desaprobado()).isEqualTo(true);
+			assertThat(nota2.desaprobado()).isEqualTo(false);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+	
+	@Test(expected = Exception.class)
+	public void notaInvalida() throws Exception{
+		
+		CreadorDeNota test = new CreadorDeNota();
+		test.crearNota(1392);
+		
+	}
+}

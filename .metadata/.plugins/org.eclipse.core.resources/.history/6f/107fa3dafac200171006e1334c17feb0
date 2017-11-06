@@ -1,0 +1,31 @@
+package ar.com.grupoesfera.model;
+
+public class ItemTest {
+
+	
+	
+	
+	@Test
+	public void createItem() {
+		
+		//Inicializacion
+		String description = "Vendo bicicleta plegable";
+		double price = 4000.50;
+		String user = "grupoEsfera";
+		
+		//Operacion
+		Item item = new Item();
+		
+		item.description = description;
+		item.price = price;
+		item.user = user;
+		
+		//Validation
+		assertThat(item).isNotNull();
+		assertTha(item.description).isEqualTo(description);
+		assertTha(item.price).isEqualTo(price);
+		assertTha(item.user).isEqualTo(user);
+		
+		
+	}
+}

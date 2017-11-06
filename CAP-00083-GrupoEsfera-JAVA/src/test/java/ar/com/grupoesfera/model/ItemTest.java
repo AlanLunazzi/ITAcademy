@@ -1,0 +1,81 @@
+package ar.com.grupoesfera.model;
+
+import static org.assertj.core.api.Assertions.*;
+
+import org.junit.Test;
+
+public class ItemTest {
+
+	@Test
+	public void createItem() {
+
+		// Inicializacion
+		String description = "Vendo bicicleta plegable";
+		double price = 4000.50;
+		String username = "grupoEsfera";
+		String name = "Maria";
+		String lastname = "Juncos";
+		User user = new User(username, name, lastname);
+
+		// Operacion
+		Item item = new Item(description, price, user);
+
+		// Validation
+		assertThat(item).isNotNull();
+		assertThat(item.getDescription()).isEqualTo(description);
+		assertThat(item.getPrice()).isEqualTo(price);
+		assertThat(item.getUser()).isInstanceOf(User.class);
+		assertThat(item.getUser().getUsername()).isEqualTo(username);
+		assertThat(item.getUser().getName()).isEqualTo(name);
+		assertThat(item.getUser().getLastname()).isEqualTo(lastname);
+
+	}
+
+	public void canCreateItemWithAValidPrice() {
+
+		// Initialization
+		String description = "Vendo bicicleta plegable";
+		double price = 4000.50;
+		String username = "grupoEsfera";
+		String name = "Maria";
+		String lastname = "Juncos";
+		User user = new User(username, name, lastname);
+
+		// Operation
+		Item item = new Item(description, price, user);
+
+		// Validation
+		assertThat(item).isNotNull();
+		assertThat(item.getDescription()).isEqualTo(description);
+		assertThat(item.getPrice()).isEqualTo(price);
+		assertThat(item.getPrice()).isGreaterThanOrEqualTo(0.0);
+		assertThat(item.getUser()).isInstanceOf(User.class);
+		assertThat(item.getUser().getUsername()).isEqualTo(username);
+		assertThat(item.getUser().getName()).isEqualTo(name);
+		assertThat(item.getUser().getLastname()).isEqualTo(lastname);
+	}
+	
+	public void canCreateItemWithAInvalidValidPrice() {
+
+		// Initialization
+
+		User user = new User("grupoesfera", "Maria", "Juncos");
+
+		// Operation
+		Item item = new Item("Vendo bici", -4600.0, user);
+		
+		Item item2 = new Item();
+		item2.setDescription("Vendo laptop");
+		item2.setPrice(-150.0);
+		item2.setUser(user);
+
+		// Validation
+		assertThat(item).isNotNull();
+		assertThat(item.getPrice()).isEqualTo(0.0);
+		assertThat(item2).isNotNull();
+		assertThat(item2.getPrice()).isEqualTo(0.0);
+		
+		
+	}
+
+}

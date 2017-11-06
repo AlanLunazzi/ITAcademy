@@ -1,0 +1,58 @@
+package ar.com.grupoesfera.model;
+
+import static org.assertj.core.api.Assertions.*;
+
+import org.junit.Test;
+
+public class ItemTest {
+
+	@Test
+	public void createItem() {
+
+		// Inicializacion
+		String description = "Vendo bicicleta plegable";
+		double price = 4000.50;
+		String username = "grupoEsfera";
+		String name = "Maria";
+		String lastname = "Juncos";
+		User user = new User(username, name, lastname);
+
+		// Operacion
+		Item item = new Item(description, price, user);
+
+		// Validation
+		assertThat(item).isNotNull();
+		assertThat(item.description).isEqualTo(description);
+		assertThat(item.price).isEqualTo(price);
+		assertThat(item.user).isInstanceOf(User.class);
+		assertThat(item.user.username).isEqualTo(username);
+		assertThat(item.user.name).isEqualTo(name);
+		assertThat(item.user.lastname).isEqualTo(lastname);
+
+	}
+
+	public void canCreateItemWithAValidPrice() {
+
+		// Initialization
+		String description = "Vendo bicicleta plegable";
+		double price = 4000.50;
+		String username = "grupoEsfera";
+		String name = "Maria";
+		String lastname = "Juncos";
+		User user = new User(username, name, lastname);
+
+		// Operation
+		Item item = new Item(description, price, user);
+
+		// Validation
+		assertThat(item).isNotNull();
+		assertThat(item.getDescription()).isEqualTo(description);
+		assertThat(item.getPrice()).isEqualTo(price);
+		assertThat(item.getPrice()).isGreaterThanOrEqualTo(0.0);
+		assertThat(item.getUser()).isInstanceOf(User.class);
+		assertThat(item.getUser().getUsername()).isEqualTo(username);
+		assertThat(item.getUser().getName()).isEqualTo(name);
+		assertThat(item.getUser().getLastname()).isEqualTo(lastname);
+	}
+
+}

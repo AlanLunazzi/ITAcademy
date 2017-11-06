@@ -1,0 +1,33 @@
+package ar.com.grupoesfera.model;
+
+public class Nota {
+
+	private int valor;
+
+	public Nota crearNota(int nota) throws Exception{
+		if(nota > -1 && nota < 11) {
+			return new Nota(nota);
+		}else
+			throw new Exception("Nota tien que estar entre 0 y 10, actualmente es " +nota);
+	}
+	
+	private Nota(int valor) {
+			this.valor = valor;
+	}
+
+	public boolean aprobado() {
+		return this.valor >= 4;
+	}
+
+	public boolean desaprobado() {
+		return !this.aprobado();
+	}
+
+	public void recuperar(int nuevoValor) {
+		if (nuevoValor >= 0 && nuevoValor < 11) {
+			if (nuevoValor > valor)
+				valor = nuevoValor;
+		}
+	}
+
+}

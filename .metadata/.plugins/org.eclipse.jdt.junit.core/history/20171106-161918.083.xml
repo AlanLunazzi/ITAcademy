@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TarjetaBajaTest" project="CAP-00083-GrupoEsfera-JAVA" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="ar.com.grupoesfera.model.TarjetaBajaTest" time="0.036">
+    <testcase name="cargaInvalida" classname="ar.com.grupoesfera.model.TarjetaBajaTest" time="0.0"/>
+    <testcase name="crearTarjetaBaja" classname="ar.com.grupoesfera.model.TarjetaBajaTest" time="0.036"/>
+  </testsuite>
+</testrun>

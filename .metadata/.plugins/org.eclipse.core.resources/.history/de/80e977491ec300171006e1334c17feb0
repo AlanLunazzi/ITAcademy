@@ -1,0 +1,15 @@
+package ar.com.grupoesfera.model;
+
+public class CreadorDeNota {
+	Nota nota;
+	public Nota crearNota(int nota) throws Exception {
+		if (nota > -1 && nota < 11) {
+			{
+				this.nota = new Nota();
+				this.nota.setValor(nota);
+				return this.nota;
+			}
+		} else
+			throw new Exception("Nota tien que estar entre 0 y 10, actualmente es " + nota);
+	}
+}

@@ -1,0 +1,18 @@
+package ar.com.grupoesfera.model;
+
+import org.junit.Test;
+import static org.assertj.core.api.Assertions.*;
+
+public class TarjetaBajaTest {
+	
+	@Test
+	public void crearTarjetaBaja() {
+		TarjetaBaja tb = new TarjetaBaja(80);
+		
+		assertThat(tb).isNotNull();
+		assertThat(c.get)
+		
+		
+	}
+
+}

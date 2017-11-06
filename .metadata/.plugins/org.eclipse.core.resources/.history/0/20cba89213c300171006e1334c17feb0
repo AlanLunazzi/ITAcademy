@@ -1,0 +1,21 @@
+package ar.com.grupoesfera.model;
+
+public class Nota {
+
+	private int valor;
+	
+	public Nota(int valor) {
+		if(this.valor >= 0)
+			this.valor = valor;
+		else
+			this.valor = 0;
+	}
+	
+	public boolean aprobado() {
+		return this.valor >= 4;
+	}
+	public boolean desaprobado() {
+		return !this.aprobado();
+	}
+	
+}

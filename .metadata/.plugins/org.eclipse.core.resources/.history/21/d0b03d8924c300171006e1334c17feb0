@@ -1,0 +1,70 @@
+package ar.com.grupoesfera.model;
+
+import ar.com.grupoesfera.interfas.TarjetaBajaInterfaz;
+
+public class TarjetaBaja implements TarjetaBajaInterfaz {
+
+	private double saldo; 
+	
+	public TarjetaBaja(double saldoInicial) {
+		if(saldoInicial > 0)
+			saldo = saldoInicial;
+		else
+			saldo = 0;
+	}
+	
+	
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) throws Exception {
+		if(saldo > 0)
+			this.saldo = saldo;
+		else
+			throw new Exception("Saldo invalido");
+	}
+
+	@Override
+	public double obtenerSaldo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void cargar(double monto) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void pagarViajeEnColectivo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void pagarViajeEnSubte() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int contarViajes() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int contarViajesEnColectivo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int contarViajesEnSubte() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

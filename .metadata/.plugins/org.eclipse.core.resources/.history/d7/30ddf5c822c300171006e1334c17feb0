@@ -1,0 +1,27 @@
+package ar.com.grupoesfera.model;
+
+import static org.assertj.core.api.Assertions.*;
+
+import org.junit.Test;
+
+public class CuboTest {
+	
+	@Test
+	public void crearCubo() {
+		Cubo c = new Cubo(15);
+		
+		assertThat(c).isNotNull();
+		assertThat(c.medirLongitudLado()).isEqualTo(15);
+		c.cambiarLongitudLado(12);
+		assertThat(c.getLado()).isEqualTo(12);
+		assertThat(c.medirSuperficieCara()).isEqualTo(12*12);
+		c.cambiarSuperficieCara(9);
+		assertThat(c.getLado()).isEqualTo(3);
+		assertThat(c.medirVolumen()).isEqualTo(27);
+		c.cambiarVolumen(64);
+		assertThat(c.getLado()).isEqualTo(4);
+		
+		
+	}
+
+}

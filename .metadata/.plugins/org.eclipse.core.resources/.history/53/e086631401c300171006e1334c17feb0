@@ -1,0 +1,17 @@
+package ar.com.grupoesfera.model;
+
+public class User {
+
+	public String username;
+	public String name;
+	public String lastname;
+	
+	
+	public User(String username, String name, String lastname) {
+		// TODO Auto-generated constructor stub
+		this.username = username;
+		this.name = name;
+		this.lastname = lastname;s
+	}
+
+}

@@ -1,6 +1,6 @@
 package ar.com.grupoesfera.model;
 
-import ar.com.grupoesfera.interfas.TarjetaBajaInterfaz;
+import ar.com.grupoesfera.interfaz.TarjetaBajaInterfaz;
 
 public class TarjetaBaja implements TarjetaBajaInterfaz {
 

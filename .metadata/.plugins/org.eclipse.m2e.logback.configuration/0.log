@@ -1097,3 +1097,109 @@
 2017-11-06 16:24:50,387 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
 2017-11-06 16:24:50,388 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-11-06 16:24:50,388 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:25:09,969 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-08 09:25:12,800 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.com.grupoesfera:escuelita-java:0.1-SNAPSHOT @ /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/pom.xml.
+2017-11-08 09:25:14,599 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:25:14,603 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:25:14,604 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:25:14,605 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:30:49,731 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:30:49,731 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:30:49,732 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:30:49,733 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:31:18,344 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:31:18,345 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:31:18,346 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:31:18,347 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:31:41,764 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:31:41,764 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:31:41,765 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:31:41,766 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:35:09,055 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:35:09,056 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:35:09,057 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:35:09,058 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:35:57,151 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:35:57,151 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:35:57,153 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:35:57,159 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:39:21,517 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:39:21,517 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:39:21,518 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:39:21,519 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:39:34,344 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:39:34,345 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:39:34,348 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:39:34,348 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:39:50,623 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:39:50,623 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:39:50,625 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:39:50,625 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:45:01,064 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:45:01,065 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:45:01,069 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:45:01,070 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:45:02,218 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:45:02,218 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:45:02,220 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:45:02,220 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:45:57,733 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:45:57,733 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:45:57,734 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:45:57,735 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:46:00,755 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:00,756 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:46:00,757 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:00,758 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:46:15,660 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:15,661 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:46:15,662 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:15,663 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:46:35,971 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:35,971 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:46:35,973 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:35,973 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:46:41,490 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:41,491 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:46:41,497 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:46:41,499 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 09:57:19,544 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:57:19,545 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 09:57:19,546 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 09:57:19,546 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:02:38,919 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:02:38,920 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:02:38,921 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:02:38,921 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:02:42,286 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:02:42,287 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:02:42,291 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:02:42,292 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:03:41,295 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:03:41,295 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:03:41,296 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:03:41,296 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:03:52,003 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:03:52,003 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:03:52,004 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:03:52,004 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:05:08,255 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:05:08,255 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:05:08,256 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:05:08,257 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:06:15,849 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:06:15,849 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:06:15,850 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:06:15,850 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:06:49,065 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:06:49,065 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:06:49,066 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:06:49,066 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:07:07,449 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:07:07,450 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:07:07,452 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:07:07,452 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources
+2017-11-08 10:07:19,369 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:07:19,370 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/main/resources
+2017-11-08 10:07:19,371 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-08 10:07:19,371 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/curso/workspace/CAP-00083-GrupoEsfera-JAVA/src/test/resources

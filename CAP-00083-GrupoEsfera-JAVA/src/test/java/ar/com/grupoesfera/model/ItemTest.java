@@ -2,6 +2,8 @@ package ar.com.grupoesfera.model;
 
 import static org.assertj.core.api.Assertions.*;
 
+import java.util.ArrayList;
+
 import org.junit.Test;
 
 public class ItemTest {

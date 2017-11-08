@@ -1,0 +1,16 @@
+package ar.com.grupoesfera.service;
+
+import java.util.ArrayList;
+
+import ar.com.grupoesfera.model.User;
+import ar.com.grupoesfera.model.Item;
+
+public class MarketPlaceService {
+
+ 	private ArrayList<Integer> items = new ArrayList<Integer>();
+
+ 	public void publishItem(User user ,String descripcion ,double precio) {
+ 		Item
+ 	}
+}
+

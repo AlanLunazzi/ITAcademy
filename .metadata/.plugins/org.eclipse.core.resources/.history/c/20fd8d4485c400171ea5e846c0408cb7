@@ -1,0 +1,29 @@
+package ar.com.grupoesfera.service;
+
+import java.awt.List;
+
+import org.junit.Test;
+
+import ar.com.grupoesfera.model.User;
+
+import ar.com.grupoesfera.model.Item;
+
+import static org.assertj.core.api.Assertions.*;
+
+public class MarketPlaceServiceTest {
+
+	@Test
+	public void publishItemAddsTheItemToAList() {
+		
+		MarketPlaceService service = new MarketPlaceService();
+
+		User grupoEsfera = new User("grupoEsfer", "Maria", "Juncos");
+
+		service.publishItem(grupoEsfera, "Laptop dell 14''", 15000.00);
+
+		List<> items = service.getItems();
+
+		assertThat(items).hasSize(1);
+	}
+
+}
